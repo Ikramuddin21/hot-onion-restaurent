@@ -1,0 +1,15 @@
+.nav li span{
+    color: black;
+    cursor: pointer;
+}
+.nav li span:hover{
+    color: red;
+}
+.check-out button{
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    color: gray;
+
+}

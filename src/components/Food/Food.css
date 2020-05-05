@@ -1,0 +1,17 @@
+.food{
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.food img{
+    width: 200px;
+}
+.food:hover{
+    box-shadow: 5px 5px 10px lightgray;
+    width: 100px;
+}
+.food p{
+    color: black;
+}
+
