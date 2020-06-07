@@ -1,14 +1,16 @@
 .header{
     display: flex;
-    margin-top: 15px;
-    margin-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid gainsboro;
+    background-color: white;
 }
 .header-area img{
     width: 20%;
-    margin-left: 150px;
+    margin-left: 20px;
 }
 .nav-area{
-    margin-left: 20%;
+    margin-left: 25%;
 }
 .signUp-btn{
     margin-left: 10px;

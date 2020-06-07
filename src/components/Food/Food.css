@@ -1,5 +1,7 @@
 .food{
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    /* margin-right: -40px; */
+    margin:10px 50px;
     padding-top: 5px;
     padding-bottom: 5px;
 
@@ -8,8 +10,7 @@
     width: 200px;
 }
 .food:hover{
-    box-shadow: 5px 5px 10px lightgray;
-    width: 100px;
+    box-shadow: 5px 5px 10px lightgray; 
 }
 .food p{
     color: black;

@@ -1,0 +1,21 @@
+.form-style{
+    margin: 15% 30%;
+}
+.form-style input{
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(211, 211, 211, 0.267);
+    border: none;
+    border-radius: 5px;
+    outline-color: #80808031;
+}
+.error{
+    margin-right: inherit;
+    color: red;
+}
+.link{
+    margin-right: 10%;
+}

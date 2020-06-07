@@ -10,20 +10,38 @@ import {
   Link
 } from "react-router-dom";
 import FoodDetail from './components/FoodDetail/FoodDetail';
+import NotFound from './components/NotFound/NotFound';
+import Login from './components/Login/Login';
+import SignIn from './components/Login/SignIn';
+
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <BgImages></BgImages>
       <Router>
-        <HomePage></HomePage>
+        <div className="App">
         <Switch>
-          <Route path="/Food/:Foodid">
+          <Route path="/food/:foodId">
+            <Header></Header>
             <FoodDetail></FoodDetail>
           </Route>
+          <Route exact path="/">
+            <Header></Header>
+            <BgImages></BgImages>
+            <HomePage></HomePage>
+          </Route>
+          <Route path="/login">
+            <Header></Header>
+            <Login></Login>
+          </Route>
+          <Route path="/signin">
+            <Header></Header>
+            <SignIn></SignIn>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

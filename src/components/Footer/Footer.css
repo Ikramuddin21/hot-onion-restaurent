@@ -1,0 +1,42 @@
+.footer{
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px;
+}
+.footer img{
+    width: 200px;
+}
+.footer-img{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.footer-nav{
+    display: flex;
+    margin-left: 60%;
+    text-align: left;
+}
+.footer h6:hover{
+    color: rgba(250, 215, 14, 0.582);
+}
+.footer-text1{
+    color: rgba(255, 255, 255, 0.753);
+}
+.footer-text2{
+    color: rgba(255, 255, 255, 0.753);
+    margin-left: 25%;
+}
+.footer-text3{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.753);
+}
+.copy-right{
+    margin-right: 55%;
+    color: gray;
+}
+.center{
+    margin-left: 50px;
+    margin-right: 50px;
+}
